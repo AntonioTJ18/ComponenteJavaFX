@@ -46,5 +46,9 @@ Que contiene esta linea pues tiene el tamaño del boton, la accion que va realiz
       </RadioButton>
       <RadioButton fx:id="rb_verde_azulado" layoutX="10.0" layoutY="39.0" mnemonicParsing="false" onAction="#color_circle" text="Verde Agua" toggleGroup="$colores" />
       <RadioButton fx:id="rb_verde" layoutX="10.0" layoutY="64.0" mnemonicParsing="false" onAction="#color_circle" text="Verde" toggleGroup="$colores" />"
-Pues que hace todo esto pues engloba todo el grupo de radio button, y cada radio button tiene un tamaño que puede ser cualquiera, un texto y estos acceden a la accion del controlador "color_circle" todos estos pertenencen al grupo de radio button "colores" el nombre puede ser cualquiera pero a poder ser algo significativo 
+Pues que hace todo esto pues engloba todo el grupo de radio button, y cada radio button tiene un tamaño que puede ser cualquiera, un texto y estos acceden a la accion del controlador "color_circle" todos estos pertenencen al grupo de radio button "colores" el nombre puede ser cualquiera pero a poder ser algo significativo.
+
+Y por ultimo nuestro circulo que este es muy sencillo de poner y se hace de la siguiente manera: 
+	"<Circle fx:id="circulo" fill="#FFAB57" layoutX="142.0" layoutY="48.0" radius="40.0" stroke="BLACK" strokeType="INSIDE" />"
+Nuestro circulo empieza con color base, un tamaño a elegir, un borde que tambien podemos elegir el color que nosotros queramos, y por ultimo el contorno de esta figura.
 
